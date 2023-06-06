@@ -1,4 +1,4 @@
-class equivalence:
+class Equivalence:
     
     @classmethod
     def check_transitive(cls, R):
