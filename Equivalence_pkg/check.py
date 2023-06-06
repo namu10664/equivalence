@@ -26,6 +26,6 @@ class Equivalence:
 
     @classmethod
     def check(cls,R):
-      if not equivalence.check_transitive(R) and equivalence.check_symmetric(R) and equivalence.check_reflexive(R):
+      if not Equivalence.check_transitive(R) and Equivalence.check_symmetric(R) and Equivalence.check_reflexive(R):
         return False
       return True
