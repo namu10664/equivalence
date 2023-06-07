@@ -1,5 +1,10 @@
 from Equivalence_pkg.check import *
 
-R=input('동치를 확인 할 집합을 적으시오.')
+R={(1, 1), (1, 3), (2, 2), (3, 3),(3, 1), (3, 4), (4, 4), (4, 3)}
 
-Equivalence.check(R)
+print('집합 {}의 동치를 확인합니다.\n'.format(R))
+
+print('추이적인지 확인 : ',Equivalence.check_transitive(R))
+print('대칭적인지 확인 : ',Equivalence.check_symmetric(R))
+print('반사적인지 확인 : ',Equivalence.check_reflexive(R))
+print('동치인가?       : ', Equivalence.check(R))
