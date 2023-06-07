@@ -10,7 +10,7 @@
 
 > 미리 주어진 집합 R = {(1, 1), (1, 3), (2, 2), (3, 3),(3, 1), (3, 4), (4, 4), (4, 3)} 가 동치인지 True, False로 알려줍니다.
 
-  from Equivalence_pkg.check에서 다음과 같은 기능을 따로 불러올 수 있습니다.
+  Equivalence_pkg.check에서 다음과 같은 기능을 따로 불러올 수 있습니다.
   
 >  check_transitive(R): R이 추이적인지 판단합니다.
 >  
