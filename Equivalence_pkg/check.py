@@ -25,5 +25,5 @@ class Equivalence:
       return True
 
     @classmethod
-    def check_equivalane(cls,R):
+    def check_equivalance(cls,R):
       return Equivalence.check_transitive(R) and Equivalence.check_symmetric(R) and Equivalence.check_reflexive(R)
