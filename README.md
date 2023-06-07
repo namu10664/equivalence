@@ -1,10 +1,10 @@
 # equivalence
 ## 이 모듈은 관계 R의 동치를 확인니다.
-> (설치 방법: !git clone https://github.com/namu10664/equivalence.git)
-> 
-> (위치 이동: %cd /content/equivalence/)
-> 
-> (모듈을 설치하고 equivalence파일에 들어간 후,) 우선, 입력창에 !python main.py 을 입력하면,
+ (설치 방법: !git clone https://github.com/namu10664/equivalence.git)
+ 
+ (위치 이동: %cd /content/equivalence/)
+ 
+ (모듈을 설치하고 equivalence파일에 들어간 후,) 우선, 입력창에 !python main.py 을 입력하면,
 
 >> 미리 주어진 집합 R = {(1, 1), (1, 3), (2, 2), (3, 3),(3, 1), (3, 4), (4, 4), (4, 3)} 가 동치인지 True, False로 알려줍니다.
 > 
